@@ -1,0 +1,62 @@
+=============== Jan 18, 2020 (CST) ===============
+17:42:19.142888 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:42:19.192819 db@open opening
+17:42:19.197465 version@stat F·[] S·0B[] Sc·[]
+17:42:19.201398 db@janitor F·2 G·0
+17:42:19.201429 db@open done T·8.578669ms
+=============== Jan 18, 2020 (CST) ===============
+17:43:06.324954 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:43:06.325170 version@stat F·[] S·0B[] Sc·[]
+17:43:06.325193 db@open opening
+17:43:06.325250 journal@recovery F·1
+17:43:06.329701 journal@recovery recovering @1
+17:43:06.374954 memdb@flush created L0@2 N·21261 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+17:43:06.380981 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+17:43:06.406270 db@janitor F·3 G·0
+17:43:06.406305 db@open done T·81.097721ms
+=============== Jan 18, 2020 (CST) ===============
+17:45:02.359426 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:45:02.359691 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+17:45:02.359718 db@open opening
+17:45:02.359816 journal@recovery F·1
+17:45:02.364374 journal@recovery recovering @3
+17:45:02.367898 memdb@flush created L0@5 N·2 S·531B "Las..der,v21264":"eth..ˏ\xa3,v21263"
+17:45:02.372306 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+17:45:02.684177 db@janitor F·4 G·0
+17:45:02.684225 db@open done T·324.485441ms
+=============== Jan 18, 2020 (CST) ===============
+17:45:11.448498 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:45:11.448714 version@stat F·[2] S·1MiB[1MiB] Sc·[0.50]
+17:45:11.448740 db@open opening
+17:45:11.448808 journal@recovery F·1
+17:45:11.453346 journal@recovery recovering @6
+17:45:11.459215 memdb@flush created L0@8 N·2 S·531B "Las..der,v21267":"eth..ˏ\xa3,v21266"
+17:45:11.464498 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+17:45:11.516435 db@janitor F·5 G·0
+17:45:11.516484 db@open done T·67.727476ms
+=============== Jan 18, 2020 (CST) ===============
+17:46:38.410322 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:46:38.410601 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+17:46:38.410634 db@open opening
+17:46:38.410730 journal@recovery F·1
+17:46:38.415489 journal@recovery recovering @9
+17:46:38.964800 memdb@flush created L0@11 N·315408 S·18MiB "\x00\x00\x98..:\x97\xa0,v314053":"\xff\xff\xbf..\x13\xe0\x9a,v71345"
+17:46:38.970918 version@stat F·[4] S·20MiB[20MiB] Sc·[1.00]
+17:46:39.184589 db@janitor F·6 G·0
+17:46:39.184640 db@open done T·773.970484ms
+17:46:39.184786 table@compaction L0·4 -> L1·0 S·20MiB Q·336677
+17:46:39.255578 table@build created L1@14 N·16382 S·2MiB "\x00\x00\x98..:\x97\xa0,v314053":"=\x92\xe4..\xect\xc7,v11800"
+17:46:39.354176 table@build created L1@15 N·33855 S·2MiB "=\x93;..\xd8k\x80,v94535":"Z\x14@..\xecY\x98,v165330"
+17:46:39.434642 table@build created L1@16 N·21976 S·2MiB "Z\x15\x1c..\xe3D<,v313356":"\x85\xcaY..\x03\xf5c,v186451"
+17:46:39.461264 table@build created L1@17 N·16964 S·2MiB "\x85ʿ..\x9e\xa3\xde,v313157":"\xc6\r!..\n.\xfc,v142890"
+17:46:39.489253 table@build created L1@18 N·15127 S·1MiB "\xc6\r\xb0..{Zq,v119711":"\xff\xff\xbf..\x13\xe0\x9a,v71345"
+17:46:39.489335 version@stat F·[0 5] S·10MiB[0B 10MiB] Sc·[0.00 0.10]
+17:46:39.497825 table@compaction committed F+1 S-9MiB Ke·0 D·232369 T·312.964353ms
+17:46:39.751110 table@remove removed @8
+17:46:39.751217 table@remove removed @5
+17:46:39.751448 table@remove removed @2
+17:58:00.584069 memdb@flush N·3600581 S·340MiB
+17:58:05.992844 memdb@flush created L0@20 N·3600581 S·184MiB "\x00\x009..\x8a\x03=,v3866796":"\xff\xff\xf7..ѫ\x8a,v683600"
+17:58:05.995996 version@stat F·[1 5] S·194MiB[184MiB 10MiB] Sc·[0.25 0.10]
+17:58:06.074591 memdb@flush committed F·1 T·5.489462363s
+17:58:06.074719 journal@remove removed @12
